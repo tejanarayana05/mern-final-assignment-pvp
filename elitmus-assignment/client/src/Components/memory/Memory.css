@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap");
+
+.memory-block,
+.check-block {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#description {
+  width: 80%;
+}
+
+#userinput {
+  width: 100vh;
+  height: 100px;
+  margin: 24px;
+  font-family: Inter, sans-serif;
+}
+
+.word-display {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.memory-btn {
+  margin: 24px;
+  align-items: center;
+  background-color: #fe9e0d;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+
+.memory-btn:active {
+  background-color: #fe9e0d;
+  outline: 0;
+}
+
+
+@media (max-width: 768px) {
+  .memory-btn {
+    padding: 0 40px;
+  }
+
+  #userinput {
+    width: 80%;
+  }
+}
